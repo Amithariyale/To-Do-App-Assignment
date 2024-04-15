@@ -1,0 +1,57 @@
+/* Styles for the task list container */
+#task_list_container {
+    width: 80%; /* Set the width to 80% of the parent container */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center items horizontally */
+
+    /* Styles for task cards */
+    .task_card {
+        width: 100%; /* Take full width */
+        margin: 10px; /* Add margin */
+        display: flex; /* Use flexbox layout */
+        justify-content: space-between; /* Space items evenly */
+        align-items: center; /* Center items vertically */
+        gap: 10px; /* Set the gap between child elements */
+        border-radius: 8px; /* Add border radius */
+        background-color: #333333; /* Set background color */
+        color: white; /* Set text color */
+        padding: 10px; /* Add padding */
+
+        /* Styles for paragraph inside task cards */
+        p {
+            overflow-wrap: break-word; /* Break words to fit within container */
+        }
+
+        /* Styles for nested div */
+        >div {
+            display: flex; /* Use flexbox layout */
+            align-items: center; /* Center items vertically */
+            gap: 10px; /* Set the gap between child elements */
+            button {
+                border: none; /* Remove border */
+                border-radius: 5px; /* Add border radius */
+                background-color: gray; /* Set background color */
+                cursor: pointer; /* Set cursor to pointer */
+
+                span {
+                    font-size: 1.8rem; /* Set font size */
+                    color: #333333; /* Set text color */
+                }
+            }
+            label{
+                cursor: pointer; /* Set cursor to pointer */
+            }
+        }
+    }
+}
+
+/* Styles for empty container */
+#empty-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 15px; /* Set the gap between child elements */
+    padding: 50px; /* Add padding */
+}

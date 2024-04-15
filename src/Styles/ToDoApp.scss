@@ -1,0 +1,10 @@
+/* Styles for the main container */
+#main_container {
+    width: 100vw; /* Set width to 100% of viewport width */
+    height: 100vh; /* Set height to 100% of viewport height */
+    background-color: #262626; /* Set background color */
+    font-family: Arial, sans-serif; /* Set font family */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange child elements in a column */
+    align-items: center; /* Center items horizontally */
+}

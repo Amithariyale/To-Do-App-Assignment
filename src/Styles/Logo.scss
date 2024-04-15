@@ -1,0 +1,19 @@
+/* Styles for the logo container */
+#logo {
+    width: 100%; /* Set the width to 100% of the parent container */
+    height: 150px; /* Set the height to 150 pixels */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #0D0D0D; /* Set the background color to dark gray */
+
+    /* Styles for SVG elements inside the logo */
+    svg {
+        margin: 10px; /* Add margin around the SVG */
+    }
+
+    /* Styles for heading elements inside the logo */
+    h1 {
+        font-size: 47px; /* Set the font size to 47 pixels */
+    }
+}

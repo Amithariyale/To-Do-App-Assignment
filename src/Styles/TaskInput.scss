@@ -1,0 +1,33 @@
+/* Styles for the task form */
+#task_form {
+    margin-top: 10px; /* Add margin on the top */
+    width: 80%; /* Set the width to 80% of the parent container */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    gap: 5px; /* Set the gap between child elements */
+    flex-wrap: wrap; /* Allow wrapping of flex items */
+
+    /* Styles for input elements inside the task form */
+    input {
+        padding: 15px; /* Add padding */
+        color: white; /* Set text color to white */
+        background-color: #0D0D0D; /* Set background color to dark gray */
+        border: none; /* Remove border */
+        border-radius: 8px; /* Add border radius */
+        flex-grow: 1; /* Allow input to grow to fill available space */
+        font-size: 1.2rem; /* Set font size */
+    }
+
+    /* Styles for button elements inside the task form */
+    button {
+        display: flex; /* Use flexbox layout */
+        align-items: center; /* Align items vertically */
+        gap: 5px; /* Set the gap between child elements */
+        padding: 15px; /* Add padding */
+        background-color: #1E6F9F; /* Set background color */
+        color: #F2F2F2; /* Set text color */
+        border: none; /* Remove border */
+        border-radius: 8px; /* Add border radius */
+        cursor: pointer; /* Set cursor to pointer */
+    }
+}
