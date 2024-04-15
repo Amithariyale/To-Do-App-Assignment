@@ -4,7 +4,8 @@
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Arrange children in a column */
     align-items: center; /* Center items horizontally */
-
+    overflow-y: scroll; /* adding schrolling */
+    padding: 20px 0; /* adding padding*/
     /* Styles for task cards */
     .task_card {
         width: 100%; /* Take full width */

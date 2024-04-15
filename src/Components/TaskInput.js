@@ -26,7 +26,7 @@ function TaskInput() {
       type: ActionTypes.ADD_NEW_TASK,
       payload: { id: uniqueId, task: e.target.task.value }, // Extract task from form field
     });
-    e.target.reset(); // Reset form after submission
+    setInputValue(""); // setting input value to an empty string after the task is created
   };
 
   return (
